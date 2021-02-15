@@ -39,8 +39,3 @@ Nilai tersebut distandarkan dengan pola terbanyaknya, dengan syarat tanpa mengub
 
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/nilai%20standar.png)
 
-Library yang digunakan:
-- Pandas
-- Matplotlib
-- Seaborn
-
