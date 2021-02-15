@@ -2,6 +2,11 @@
 Tujuan project ini adalah mempersiapkan data sekaligus membuat model prediksi yang tepat untuk menentukan pelanggan akan berhenti berlangganan (Churn) atau tidak.
 
 ## Data Cleansing
+Library yang digunakan:
+- Pandas
+- Matplotlib
+- Seaborn
+
 Langkah-langkah data cleansing:
 - Mencari ID pelanggan (Nomor telphone) yang valid
 
