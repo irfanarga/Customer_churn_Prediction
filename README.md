@@ -8,7 +8,6 @@ Langkah-langkah data cleansing:
 - Mengatasi data-data yang masih kosong (Missing Values)
 
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Missing%20value.png)
-
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Missing%20value%20handled.png)
 
 Setelah dianalisis lebih lanjut, ternyata masih ada Missing Values dari data yang sudah validkan Id Number pelanggannya. Missing values terdapat pada kolom Churn, tenure, MonthlyCharges & TotalCharges. Setelah ditangani dengan cara penghapusan rows dan pengisian rows dengan nilai tertentu, terbukti sudah tidak ada missing values lagi pada data, terbukti dari jumlah missing values masing-masing variable yang bernilai 0.
@@ -19,9 +18,7 @@ Mendeteksi Pencilan dari suatu Nilai (Outlier) salah satunya bisa melihat plot d
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Data%20ada%20outlier.png)
 
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Boxplot%20tenure.png)
-
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Boxplot%20monthly%20charge.png)
-
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/Boxplot%20total%20charge.png)
 
 Nilai outlier tersebut ditangani dengan cara merubah nilainya ke nilai Maximum & Minimum dari interquartile range (IQR).
