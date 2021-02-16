@@ -6,7 +6,6 @@ Tujuan project ini adalah mempersiapkan data sekaligus membuat model prediksi ya
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Xgboost
 - Pickle
 
 ## Data Cleansing
