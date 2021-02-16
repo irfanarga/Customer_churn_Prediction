@@ -48,12 +48,19 @@ Nilai tersebut distandarkan dengan pola terbanyaknya, dengan syarat tanpa mengub
 Exploratory Data Analysis memungkinkan analyst memahami isi data yang digunakan, mulai dari distribusi, frekuensi, korelasi dan lainnya. Pada umumnya EDA dilakukan dengan beberapa cara yaitu Univariat, Bivariat, dan Multivariat Analysis. Analisis dalam project ini dilakukan dengan melihat persebaran:
   - Prosentase persebaran data Churn dan tidaknya dari seluruh data
   
-Gambar pie  
+![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/Persentase%20pelanggan%20Churn.png)
+
+Dari grafik diatas, diketahui bahwa sebaran data secara kesuluruhan customer tidak melakukan churn, dengan detil Churn sebanyak 26% dan No Churn sebanyak 74%.
   
   - Persebarang data dari variable predictor terhadap label (Churn)
 
-Gambar predikto numerik
-Gambar prediktor kategorik
+![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/EDA%20predictor%20terhadap%20churn.png)
+
+MonthlyCharges ada kecenderungan semakin kecil nilai biaya bulanan yang dikenakan, semakin kecil juga kecenderungan untuk melakukan Churn. Untuk TotalCharges terlihat tidak ada kecenderungan apapun terhadap Churn customers. Untuk tenure ada kecenderungan semakin lama berlangganan customer, semakin kecil kecenderungan untuk melakukan Churn.
+
+![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/EDA%20predictor%20kategorik%20terhadap%20churn.png)
+
+Tidak ada perbedaan yang signifikan untuk orang melakukan churn dilihat dari faktor jenis kelamin dan layanan telfonnya. Akan tetapi ada kecenderungan bahwa orang yang melakukan churn adalah orang-orang yang tidak memiliki partner, orang-orang yang statusnya adalah senior citizen, orang-orang yang mempunyai layanan streaming TV, orang-orang yang mempunyai layanan Internet dan orang-orang yang tagihannya paperless.
 
 - Melakukan Data Pre-Processing
 - Melakukan Pemodelan Machine Learning
