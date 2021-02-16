@@ -47,7 +47,7 @@ Nilai tersebut distandarkan dengan pola terbanyaknya, dengan syarat tanpa mengub
 Exploratory Data Analysis memungkinkan analyst memahami isi data yang digunakan, mulai dari distribusi, frekuensi, korelasi dan lainnya. Pada umumnya EDA dilakukan dengan beberapa cara yaitu Univariat, Bivariat, dan Multivariat Analysis. Analisis dalam project ini dilakukan dengan melihat persebaran:
   - Prosentase persebaran data Churn dan tidaknya dari seluruh data
   
-![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/Persentase%20pelanggan%20Churn.png)
+![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/Pie%20churn.png)
 
 Dari grafik diatas, diketahui bahwa sebaran data secara kesuluruhan customer tidak melakukan churn, dengan detil Churn sebanyak 26% dan No Churn sebanyak 74%.
   
@@ -74,14 +74,14 @@ Beberapa hal yang dilakukan dalam tahap ini yaitu:
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20train.png)
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20plot%20train.png)
    
-   Dari data training terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 80%, dengan detil tebakan churn yang sebenernya benar churn adalah      638, tebakan tidak churn yang sebenernya tidak churn adalah 3237, tebakan tidak churn yang sebenernya benar churn adalah 652 dan tebakan churn yang sebenernya tidak churn        adalah 338.
+   Dari data training terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 80%, dengan detil tebakan churn yang sebenernya benar churn adalah      640, tebakan tidak churn yang sebenernya tidak churn adalah 3226, tebakan tidak churn yang sebenernya benar churn adalah 650 dan tebakan churn yang sebenernya tidak churn        adalah 349.
    
    - Performa model testing
    
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20tes.png)
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20plot%20test.png)
 
-   Dari data testing terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 79%, dengan detil tebakan churn yang sebenernya benar churn adalah        264, tebakan tidak churn yang sebenernya tidak churn adalah 1392, tebakan tidak churn yang sebenernya benar churn adalah 282 dan tebakan churn yang sebenernya tidak churn        adalah 146.
+   Dari data testing terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 79%, dengan detil tebakan churn yang sebenernya benar churn adalah        263, tebakan tidak churn yang sebenernya tidak churn adalah 1388, tebakan tidak churn yang sebenernya benar churn adalah 283 dan tebakan churn yang sebenernya tidak churn        adalah 151.
 
 2. Random Forest Classifier (Default)
    - Performa model training
@@ -89,14 +89,14 @@ Beberapa hal yang dilakukan dalam tahap ini yaitu:
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/RDF%20matrix%20train.png)
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/RDF%20matrix%20plot%20train.png)
    
-   Dari data training terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 100%, dengan detil tebakan churn yang sebenernya benar churn adalah      1278, tebakan tidak churn yang sebenernya tidak churn adalah 3566, tebakan tidak churn yang sebenernya benar churn adalah 12 dan tebakan churn yang sebenernya tidak churn        adalah 9.
+   Dari data training terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 100%, dengan detil tebakan churn yang sebenernya benar churn adalah      1275, tebakan tidak churn yang sebenernya tidak churn adalah 3569, tebakan tidak churn yang sebenernya benar churn adalah 15 dan tebakan churn yang sebenernya tidak churn        adalah 6.
    
    - Performa model testing
    
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/RDF%20matrix%20test.png)
    ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/RDF%20matrix%20plot%20test.png)
    
-   Dari data testing terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 78%, dengan detil tebakan churn yang sebenernya benar churn adalah        262, tebakan tidak churn yang sebenernya tidak churn adalah 1360, tebakan tidak churn yang sebenernya benar churn adalah 284 dan tebakan churn yang sebenernya tidak churn        adalah 179.
+   Dari data testing terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 78%, dengan detil tebakan churn yang sebenernya benar churn adalah        256, tebakan tidak churn yang sebenernya tidak churn adalah 1351, tebakan tidak churn yang sebenernya benar churn adalah 290 dan tebakan churn yang sebenernya tidak churn        adalah 188.
    
 3. Gradient Boosting Classifier (Default)
    - Performa model training
