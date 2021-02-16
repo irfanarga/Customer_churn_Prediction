@@ -1,11 +1,15 @@
 # Customer churn Prediction
 Tujuan project ini adalah mempersiapkan data sekaligus membuat model prediksi yang tepat untuk menentukan pelanggan akan berhenti berlangganan (Churn) atau tidak.
 
-## Data Cleansing
-Library yang digunakan:
+## Library
 - Pandas
 - Matplotlib
 - Seaborn
+- Scikit-learn
+- Xgboost
+- Pickle
+
+## Data Cleansing
 
 Langkah-langkah data cleansing:
 - Mencari ID pelanggan (Nomor telphone) yang valid
@@ -39,3 +43,18 @@ Nilai tersebut distandarkan dengan pola terbanyaknya, dengan syarat tanpa mengub
 
 ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/Data_Cleansing/nilai%20standar.png)
 
+## Pemodelan Machine Learning
+- Eksploratory Data Analysis (EDA)
+Exploratory Data Analysis memungkinkan analyst memahami isi data yang digunakan, mulai dari distribusi, frekuensi, korelasi dan lainnya. Pada umumnya EDA dilakukan dengan beberapa cara yaitu Univariat, Bivariat, dan Multivariat Analysis. Analisis dalam project ini dilakukan dengan melihat persebaran:
+  - Prosentase persebaran data Churn dan tidaknya dari seluruh data
+  
+Gambar pie  
+  
+  - Persebarang data dari variable predictor terhadap label (Churn)
+
+Gambar predikto numerik
+Gambar prediktor kategorik
+
+- Melakukan Data Pre-Processing
+- Melakukan Pemodelan Machine Learning
+- Menentukan Model Terbaik
