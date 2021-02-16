@@ -62,6 +62,28 @@ MonthlyCharges ada kecenderungan semakin kecil nilai biaya bulanan yang dikenaka
 
 Tidak ada perbedaan yang signifikan untuk orang melakukan churn dilihat dari faktor jenis kelamin dan layanan telfonnya. Akan tetapi ada kecenderungan bahwa orang yang melakukan churn adalah orang-orang yang tidak memiliki partner, orang-orang yang statusnya adalah senior citizen, orang-orang yang mempunyai layanan streaming TV, orang-orang yang mempunyai layanan Internet dan orang-orang yang tagihannya paperless.
 
-- Melakukan Data Pre-Processing
+- Data Pre-Processing
+Beberapa hal yang dilakukan dalam tahap ini yaitu:
+   - Menghapus kolom yang tidak digunakan dalam pemodelan seperti customerID & UpdatedAt
+   - Mengubah semua bentuk data menjadi numerik dengan Encoding Data
+   - Membagi dataset menjadi 2 bagian yaitu 70% training dan 30% testing
+
 - Melakukan Pemodelan Machine Learning
+1. Logistic Regression (Default)
+   - Performa model training
+   
+   ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20train.png)
+   ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20plot%20train.png)
+   
+   Dari data training terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 80%, dengan detil tebakan churn yang sebenernya benar churn adalah      638, tebakan tidak churn yang sebenernya tidak churn adalah 3237, tebakan tidak churn yang sebenernya benar churn adalah 652 dan tebakan churn yang sebenernya tidak churn        adalah 338.
+   
+   - Performa model testing
+   
+   ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20tes.png)
+   ![](https://github.com/irfanarga/Customer_churn_Prediction/blob/master/images/pemodelan/LR%20matrix%20plot%20test.png)
+
+   Dari data testing terlihat bahwasannya model mampu memprediksi data dengan menghasilkan akurasi sebesar 79%, dengan detil tebakan churn yang sebenernya benar churn adalah        264, tebakan tidak churn yang sebenernya tidak churn adalah 1392, tebakan tidak churn yang sebenernya benar churn adalah 282 dan tebakan churn yang sebenernya tidak churn        adalah 146.
+
+2.  
+
 - Menentukan Model Terbaik
